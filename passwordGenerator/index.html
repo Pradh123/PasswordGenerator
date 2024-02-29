@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Password Generator</h1>
+      <div class="box1">
+        <input type="text" id="input" readonly />
+        <div class="btn">
+          <button id="Generate">Generate Password</button>
+          <button id="copy">copy</button>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="a range"><input type="range" minlength="5" max="100" id="range" value="5" class="c"/>
+        <p>length : 5</p></div>
+        <div class="a "><span>Number : </span>
+            <input type="checkbox" id="number" class="b" /></div>
+        <div class="a">
+        <span>Special Charecter:</span>
+          <input type="checkbox" id="specialChar"  class="b" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
